@@ -27,6 +27,21 @@ namespace Biblioteca
         public int Anno { get { return anno; } set { anno = value; } }
         public int NPagine { get { return nPagine; } set { nPagine = value} }
         public string toString() { return ("L'autore è " + this.autore + ", il titolo è " + this.titolo + "pubblicato nell'anno"+ this.anno + "con" + this.nPagine + "pagine" ); }
-
+        int tempoLettura;
+        public int getTempoLettura() { return tempoLettura; }
+        
+        public int readingTime()
+        {
+            if (nPagine < 100)
+            {
+                return tempoLettura = 1;
+            } else if (100 < nPagine > 200)
+            {
+                tempoLettura = 2;
+            } else if (nPagine > 200) 
+            { 
+                tempoLettura = 3;
+            }
+        }
     }
 }
