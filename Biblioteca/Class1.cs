@@ -8,6 +8,7 @@ namespace Biblioteca
 {
     internal class Class1
     {
+        //////commento aggiunto da github
 <<<<<<< HEAD
         string autore, titolo;
         int anno, nPagine;
