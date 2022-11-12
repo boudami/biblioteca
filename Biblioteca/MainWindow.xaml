@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnStampaLibro" Content="Stampa libro" HorizontalAlignment="Left" Margin="237,109,0,0" VerticalAlignment="Top" Height="55" Width="107"/>
+        <Button x:Name="btnStampaLibro" Content="Stampa libro" HorizontalAlignment="Left" Margin="237,109,0,0" VerticalAlignment="Top" Height="55" Width="107" Click="btnStampaLibro_Click"/>
         <TextBox x:Name="txtLibro" HorizontalAlignment="Left" Margin="10,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Inserisci il titolo del libro" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Width="145"/>
         <Label x:Name="lblLibri" Content="Libri" HorizontalAlignment="Left" Margin="374,83,0,0" VerticalAlignment="Top" Height="116" Width="92"/>
-        <Button x:Name="btnStampaBiblioteca" Content="Biblioteca" HorizontalAlignment="Left" Margin="167,380,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtBiblioteca" HorizontalAlignment="Left" Margin="13,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Inserici i dati" HorizontalAlignment="Left" Margin="13,360,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStampaBiblioteca" Content="Biblioteca" HorizontalAlignment="Left" Margin="169,328,0,0" VerticalAlignment="Top" Click="btnStampaBiblioteca_Click"/>
+        <TextBox x:Name="txtBiblioteca" HorizontalAlignment="Left" Margin="13,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Inserici il nome della biblioteca" HorizontalAlignment="Left" Margin="13,290,0,0" VerticalAlignment="Top"/>
         <Label Content="Inserisci l'autore" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="145"/>
         <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtAnno" HorizontalAlignment="Left" Margin="10,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>

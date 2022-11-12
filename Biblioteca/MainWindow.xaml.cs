@@ -24,5 +24,22 @@ namespace Biblioteca
         {
             InitializeComponent();
         }
+        Class1 c1 = new Class1();
+        private void btnStampaLibro_Click(object sender, RoutedEventArgs e)
+        {
+            c1.autore = txtAutore.Text;
+            c1.anno = txtAnno.Text;
+            c1.npagine = txtPagine.Text;
+            c1.libro = txtLibro.Text;
+            lblLibri.Content = "Il libro è"+c1.libro + "pubblicato nell'anno" + c1.anno + "con" + c1.npagine + "pagine e" + "l'autore è" + c1.autore;
+        }
+
+        private void btnStampaBiblioteca_Click(object sender, RoutedEventArgs e)
+        {
+            c1.nome = txtBiblioteca.Text;
+            c1.indirizzo=
+            c1.orarioApertura=
+            c1.orarioChiusura=
+        }
     }
 }
