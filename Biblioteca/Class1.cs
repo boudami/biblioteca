@@ -17,6 +17,15 @@ namespace Biblioteca
             this.orarioApertura = orarioApertura;
             this.orarioChiusura = orarioChiusura;
         }
-        
+
+        public Class1()
+        {
+
+        }
+        public string Nome { get { return nome; } set { nome = value; } }
+        public string Indirizzo { get { return indirizzo; } set { nome = value; } }
+        public int OrarioApertura { get { return orarioApertura; } set { orarioApertura = value; } }
+        public int OrarioChiusura { get { return orarioChiusura; } set { orarioChiusura = value; } }
+
     }
 }
