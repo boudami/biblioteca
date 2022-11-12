@@ -8,6 +8,7 @@ namespace Biblioteca
 {
     internal class Class1
     {
+<<<<<<< HEAD
         string autore, titolo;
         int anno, nPagine;
         public Class1(string autore, string titolo, int anno, int nPagine)
@@ -17,10 +18,23 @@ namespace Biblioteca
             this.anno = anno;
             this.nPagine = nPagine;
         }
+=======
+        string nome, indirizzo;
+        int orarioApertura, orarioChiusura;
+        public Class1(string nome, string indirizzo, int orarioApertura, int orarioChiusura)
+        {
+            this.nome = nome;
+            this.indirizzo = indirizzo;
+            this.orarioApertura = orarioApertura;
+            this.orarioChiusura = orarioChiusura;
+        }
+
+>>>>>>> Biblioteca
         public Class1()
         {
 
         }
+<<<<<<< HEAD
 
         public string Autore { get { return autore; } set { autore = value; } }
         public string Titolo { get { return titolo; } set { titolo = value; } }
@@ -43,5 +57,12 @@ namespace Biblioteca
                 tempoLettura = 3;
             }
         }
+=======
+        public string Nome { get { return nome; } set { nome = value; } }
+        public string Indirizzo { get { return indirizzo; } set { nome = value; } }
+        public int OrarioApertura { get { return orarioApertura; } set { orarioApertura = value; } }
+        public int OrarioChiusura { get { return orarioChiusura; } set { orarioChiusura = value; } }
+
+>>>>>>> Biblioteca
     }
 }
